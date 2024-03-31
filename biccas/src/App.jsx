@@ -1,24 +1,9 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-
+import Header from "./Header";
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div className="hero">
-        <nav></nav>
-        <div className="heroCard">
-          <div className="heroText"></div>
-          <div className="heroImage"></div>
-        </div>
-        <div className="collabs">
-          <div className="collabsText"></div>
-          <div className="collabLogos"></div>
-        </div>
-      </div>
+      <Header />
       <div className="offerings">
         <div className="offeringsText">
           <div className="offeringsTextMain"></div>
@@ -100,7 +85,6 @@ function App() {
               <div className="footerLink"></div>
             </div>
           </div>
-
         </div>
       </div>
     </>
