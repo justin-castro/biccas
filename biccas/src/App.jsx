@@ -1,16 +1,12 @@
 import "./App.css";
+import Navigation from "./Navigation";
 import Header from "./Header";
+import Offering from "./Offering";
 function App() {
   return (
-    <>
-      <Header />
-      <div className="offerings">
-        <div className="offeringsText">
-          <div className="offeringsTextMain"></div>
-          <div className="ratings"></div>
-        </div>
-        <div className="offeringIcons"></div>
-      </div>
+    <div className="px-24 pt-8">
+      <Header/>
+      <Offering/>
       <div className="features">
         <div className="featuresHeading">
           <div className="featuresHeadingMain"></div>
@@ -87,7 +83,7 @@ function App() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
